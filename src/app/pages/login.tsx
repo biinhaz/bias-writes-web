@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function loginPage() {
+export default function LoginPage() {
     return (
         <section>
             <h1>oiiiiiiiii</h1>
