@@ -4,7 +4,7 @@ import PFP from "../assets/pfp.png"
 
 export default function Navbar() {
     return (
-        <nav className="fixed bg-opacity-100 w-full p-10">
+        <nav className="fixed z-10 bg-white w-full p-10">
         <div className="flex items-center text-xl justify-between">
             <p className="font-semibold">Bia's Blog</p>
             <div className="flex gap-7 ml-auto items-center">

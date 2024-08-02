@@ -11,9 +11,11 @@ const config: Config = {
       backgroundColor: {
         "background-color": '#E5E5E5',
       },
-      textColor: {
-        "secondary-black": '#1A1A1A',
-      },
+      colors: {
+        "primary-text": '#1A1A1A',
+        "secondary-color": '#6941C6',
+        "secondary-text": '#667085',
+      }
     },
   },
   plugins: [],
