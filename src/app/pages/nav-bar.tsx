@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import PFP from "../assets/pfp.png"
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -12,13 +13,15 @@ export default function Navbar() {
             <p>Projects</p>
             <p>About</p>
             <div className="rounded-full w-10 h-10 overflow-hidden">
+                <Link href="/login">
                 <Image
                 src={PFP}
                 alt="Profile Picture"
                 />
+                </Link>
             </div>
             </div>
         </div>
         </nav>
-    );
+    )
 }

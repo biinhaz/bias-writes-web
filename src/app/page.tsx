@@ -1,7 +1,6 @@
-import Cover from "./components/cover";
-import Navbar from "./components/nav-bar";
-import RecentPosts from "./components/recent-posts";
-import LoginPage from "./pages/login";
+import Cover from "./pages/cover";
+import Navbar from "./pages/nav-bar";
+import RecentPosts from "./pages/recent-posts";
 
 export default function Home() {
   return (
